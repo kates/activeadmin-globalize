@@ -4,7 +4,7 @@ require 'spec_helper'
 describe Article do
 
   it 'should be translatable' do
-    Article.translates?.should be_true
+    Article.translates?.should be true
   end
 
   describe 'localized article' do
@@ -12,7 +12,9 @@ describe Article do
     let(:article) { create(:localized_article) }
     subject { article }
 
-    it { should have(3).translations }
+    it 'should have 3 translations' do
+      article.translations.size.should == 3
+    end
 
     it 'should have italian translation' do
       I18n.with_locale :it do
