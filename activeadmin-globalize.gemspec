@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.name        = 'activeadmin-globalize'
   s.version     = ActiveAdmin::Globalize::VERSION
   s.authors     = ['Stefano Verna', 'Fabio Napoleoni', 'Kates Gasis']
-  s.email       = ['stefano.verna@gmail.com', 'f.napoleoni@gmail.com', 'katesgasis@gmail.com]
+  s.email       = ['stefano.verna@gmail.com', 'f.napoleoni@gmail.com', 'katesgasis@gmail.com']
   s.homepage    = 'http://github.com/fabn/activeadmin-globalize'
   s.summary     = 'Handles globalize translations'
   s.description = 'Handles globalize translations in ActiveAdmin 1.0 and Rails 7.x'
